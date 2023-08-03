@@ -12,6 +12,18 @@ h1 {
     padding: 20px;
 }
 
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
@@ -21,9 +33,15 @@ h1 {
 .link-button {
     text-decoration: none;
     color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px 12px 24px;
+    margin-top: 20px;
+    border-radius: 12px; 
+    background-color: #1b1b1b;
+    transition: background-color 0.2s ease-out;
+}
+
+.link-button:hover {
+    background-color: #404040;
 }
