@@ -45,3 +45,6 @@ h1 {
 .link-button:hover {
     background-color: #404040;
 }
+.sombreado{
+    text-shadow: 2px 2px 4px #000;
+}
